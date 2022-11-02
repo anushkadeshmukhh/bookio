@@ -1,10 +1,17 @@
-.mainpg{
+.mainpg {
     background: darkblue;
 }
+
+.mainpg h1 {
+    color: white;
+    padding-left: 2rem;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
 nav {
     display: flex;
     padding: 2% 6%;
@@ -20,6 +27,7 @@ nav img {
     flex: 1;
     text-align: right;
 }
+
 .nav-links ul li {
     list-style: none;
     display: inline-block;
@@ -46,17 +54,20 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
 /*-booook*/
-.books{
+.books {
     width: 80%;
     margin: auto;
     text-align: center;
     padding: 3rem;
 }
-.row{
+
+.row {
     padding: 2rem;
 }
-.book-align{
+
+.book-align {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -65,7 +76,8 @@ nav img {
     display: inline-block;
     padding: 2rem;
 }
-.layer{
+
+.layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -74,8 +86,9 @@ nav img {
     left: 0;
     transition: 0.5s;
 }
-.layer:hover{
-    background:rgba(226, 0, 0, 0.7) ;
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
 }
 
 /* Dropdown Button */
